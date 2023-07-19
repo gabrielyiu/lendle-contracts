@@ -1,0 +1,50 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "StablePriceFeed",
+  "sourceName": "contracts/misc/StablePriceFeed.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "TARGET_DIGITS",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "fetchPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "updatePrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5060b98061001f6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80630fdb11cf1460415780631be5c92f146059578063673a7e2814605f575b600080fd5b60476065565b60408051918252519081900360200190f35b60476071565b60476076565b670de0b6b3a764000090565b601281565b6000607e6065565b90509056fea2646970667358221220e013ed0ec767a9d3532086f5b565d4e8b01229c1851e28195577750dd6adaf4164736f6c63430007060033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c80630fdb11cf1460415780631be5c92f146059578063673a7e2814605f575b600080fd5b60476065565b60408051918252519081900360200190f35b60476071565b60476076565b670de0b6b3a764000090565b601281565b6000607e6065565b90509056fea2646970667358221220e013ed0ec767a9d3532086f5b565d4e8b01229c1851e28195577750dd6adaf4164736f6c63430007060033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
